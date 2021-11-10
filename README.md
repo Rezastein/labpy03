@@ -99,13 +99,13 @@ for i in range(1, 9):
         b = a * 0
         print("Laba bulan ke -", i, " = ", b)
     if (i >= 3 and i <= 4):
-        c = a * 0.1
+        c = a * 0.01
         print("Laba bulan ke -", i, " = ", c)
     if (i >= 5 and i <= 7):
-        d = a * 0.5
+        d = a * 0.05
         print("Laba bulan ke -", i, " = ", d)
     if (i == 8):
-        e = a * 0.2
+        e = a * 0.02
         print("Laba bulan ke -", i, " = ", e)
         total = b + b + c + c + d + d + d + e
         print("\nTotal : ", total)
